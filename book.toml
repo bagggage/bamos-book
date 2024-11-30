@@ -1,0 +1,19 @@
+[book]
+authors = ["bagggage"]
+language = "en"
+multilingual = false
+src = "src"
+title = "BamOS Documentation"
+
+[preprocessor.alerts]
+
+
+[output.html]
+theme = "theme"
+default-theme = "light"
+preferred-dark-theme = "dark"
+copy-fonts = false
+
+[output.html.print]
+enable = true
+page-break = true
