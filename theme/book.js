@@ -296,8 +296,8 @@ function playground_text(playground, hidden = true) {
     
     var sheet = document.getElementById("code-style");
     var stylesheets = {
-        highlight: 'highlight.css',
-        lightHighlight: 'ayu-highlight.css',
+        highlight: path_to_root + 'highlight.css',
+        lightHighlight: path_to_root + 'ayu-highlight.css',
     };
 
     function showThemes() {
