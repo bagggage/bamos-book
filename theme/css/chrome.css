@@ -640,3 +640,17 @@ html:not(.sidebar-resizing) .sidebar {
     margin-inline-start: -14px;
     width: 14px;
 }
+
+.mdbook-alerts {
+    border-radius: 6px;
+}
+
+.light .mdbook-alerts {
+    border-left: 0.25em solid var(--mdbook-alerts-color);
+    background: var(--quote-bg);
+}
+
+.dark .mdbook-alerts {
+    border-left: 0.25em solid var(--mdbook-alerts-color);
+    background: var(--quote-border);
+}

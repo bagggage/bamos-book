@@ -54,3 +54,7 @@ pre, code {
 .fa {
     display: none !important;
 }
+
+span.mdbook-alerts-icon {
+    display: none;
+}
