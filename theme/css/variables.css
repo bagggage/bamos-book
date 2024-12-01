@@ -86,12 +86,12 @@
 
     --inline-code-color: #c5c7c8;
 
-    --theme-popup-bg: #161923;
-    --theme-popup-border: #737480;
-    --theme-hover: #3a3c47;
+    --theme-popup-bg: #151616;
+    --theme-popup-border: #76777e;
+    --theme-hover: #3a3b3e;
 
     --quote-bg: hsl(220, 4%, 29%);
-    --quote-border: hsl(226, 15%, 22%);
+    --quote-border: hsl(226deg 5.16% 19.25%);
 
     --warning-border: #ff9500;
 
