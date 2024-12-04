@@ -49,7 +49,7 @@ Thanks to the clear project organization, the subsystem hierarchy mostly mirrors
     - ACPI
     - PCI
   - Built-in drivers
-  - [**Interrupt System**](./Interrupts)
+  - [**Interrupt System**](./kernel/devices/interrupts.md)
     - High-level interrupt handling
     - Resource management
   - [**Input/Output System**](./kernel/devices/io.md)

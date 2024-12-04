@@ -31,12 +31,12 @@ The LMA region solves this problem, allowing significant optimization of memory 
 To convert any physical address to virtual and vice versa, you can use:
 
 ```zig
-vm.getVirtLma(phys)
+vm.getVirtLma(address: anytype) @TypeOf(address)
 ```
 - `phys`: the physical address/pointer.
 
 ```zig
-vm.getPhysLma(virt)
+vm.getPhysLma(address: anytype) @TypeOf(address)
 ```
 - `virt`: the virtual address/pointer.
 
@@ -200,10 +200,23 @@ vm.setPt(pt: *const vm.PageTable) void
 Sets the given page table to a specific CPU register.
 
 ```zig
-vm.mmap(virt: usize, phys: usize, pages: u32, flags: vm.MapFlags, page_table: *PageTable) vm.Error!void
+vm.mmap(
+  virt: usize,
+  phys: usize,
+  pages: u32,
+  flags: vm.MapFlags,
+  page_table: *PageTable
+) vm.Error!void
 ```
+
 Maps a virtual memory range to a physical memory range.
 Returns `vm.Error` if mapping fails.
+
+- `virt`: base virtual address to which physicall region must be mapped.
+- `phys`: region base physical address.
+- `pages`: number of pages to map.
+- `flags`: flags to specify (see `vm.MapFlags` structure).
+- `page_table`: target page table.
 
 ```zig
 vm.getPhys(address: anytype) ?@TypeOf(address)

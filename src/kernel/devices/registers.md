@@ -213,7 +213,7 @@ const Layout = packed union {
 ## Examples
 
 At first glance, the abstraction may seem overly complicated. However, it is quite simple to use in practice.
-To better understand, two complete usage examples are provided below.
+To better understand, examples are provided below.
 
 ### Manually Defining Registers
 
