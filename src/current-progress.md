@@ -9,12 +9,12 @@
 | Feature | Status | Docs |
 |---|---|---|
 | x86-64 Support | **Most recent** ||
-| Memory management | **Most recent** ||
+| Memory management | **Most recent** | [*Most recent*](./kernel/memory.md) |
 | SMP | **Almost done** ||
-| Device management | **Almost done** ||
-| I/O subsystem | **Done** ||
-| Interrupt handling | **Almost done** ||
-| Device classes subsystem | **Almost done** ||
+| Device management | **Almost done** | [*Most recent*](./kernel/devices.md) |
+| I/O subsystem | **Done** | [*Most recent*](./kernel/devices/io.md) |
+| Interrupt handling | **Almost done** | [*Most recent*](./kernel/devices/interrupts.md) |
+| Device classes subsystem | **Almost done** | [*Most recent*](./kernel/devices/classes.md) |
 | Virtual file system | *In progress ||
 | Processes and threads | *Planned* ||
 | System calls | *Planned* ||
