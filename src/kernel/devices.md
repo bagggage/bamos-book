@@ -164,7 +164,7 @@ Device management requires the use of various mechanisms. Therefore, the `dev` s
 
   Manages resources involved in interrupts and provides a convenient API for working with them.
 
-- [**Registers API**](./Registers) `dev.regs`
+- [**Registers API**](./devices/registers.md) `dev.regs`
 
   Useful common API for work with devices registers.
 

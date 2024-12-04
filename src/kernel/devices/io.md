@@ -21,7 +21,7 @@ An I/O mechanism is an abstraction that allows you to conveniently use different
 
 Mechanisms are useful for dynamically switching between different ways of working with a device. Often, devices may support both I/O ports and MMIO. Using mechanisms, you can write code that is independent of the I/O method and dynamically select the appropriate mechanism at runtime.
 
-Another use case for mechanisms is with the [Registers API](./Registers).
+Another use case for mechanisms is with the [Registers API](./registers.md).
 
 Creating a mechanism (*all parameters must be known at compile time*):
 

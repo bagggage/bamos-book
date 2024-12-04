@@ -53,7 +53,7 @@ Thanks to the clear project organization, the subsystem hierarchy mostly mirrors
     - High-level interrupt handling
     - Resource management
   - [**Input/Output System**](./kernel/devices/io.md)
-    - [Registers](./Registers)
+    - [Registers](./kernel/devices/registers.md)
     - Access mechanisms
         - MMIO, PIO
 - [**Virtual Memory**](./kernel/memory.md)
