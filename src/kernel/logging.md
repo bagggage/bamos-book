@@ -60,12 +60,12 @@ const log = std.log.scoped(.my_scope);
 
 fn someTemporaryFunction() {
     ...
-    log.info("I'm here!");
+    log.info("I'm here!", .{});
 
     ...
 
     if (someFail) {
-        log.err("Bad! Really Bad!");
+        log.err("Bad! Really Bad!", .{});
     }
 }
 ```
