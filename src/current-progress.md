@@ -18,7 +18,7 @@
 | Virtual file system | *In progress ||
 | Processes and threads | *Planned* ||
 | System calls | *Planned* ||
-| Logging system | Draft ||
+| Logging subsystem | **Most recent** ||
 
 ## Hardware drivers
 

@@ -16,3 +16,4 @@
     - [Registers API](./kernel/devices/registers.md)
     - [Interrupts](./kernel/devices/interrupts.md)
     - [Classes](./kernel/devices/classes.md)
+  - [Logging](./kernel/logging.md)
