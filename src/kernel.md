@@ -61,7 +61,7 @@ Thanks to the clear project organization, the subsystem hierarchy mostly mirrors
   - [Physical page allocator](./kernel/memory.md#page-allocator-vmpageallocator)
   - Various memory allocators
 - **Virtual File System**
-- **Logging System**
+- [**Logging Subsystem**](./kernel/logging.md)
 - **Boot**
 - **Video** (*may be removed in the future*)
   - Framebuffers
