@@ -35,6 +35,8 @@
 | Driver | Status | Docs |
 |---|---|---|
 | ext2 | *In progress ||
+| tmpfs | *In progress ||
+| initramfs | *In progress ||
 | ext4 | *Planned* ||
 | devfs | *Planned* ||
 | NTFS | *Planned* ||
