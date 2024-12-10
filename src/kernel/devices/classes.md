@@ -71,7 +71,7 @@ Allocates an object of class `T`. Returns an `NoMemory` error if it fails.
 If necessary, you can also free the allocated object:
 
 ```zig
-obj.delete(T: type, object: *T)
+obj.free(T: type, object: *T)
 ```
 
 - `T`: the class type.
@@ -98,7 +98,7 @@ Registers an object of the specified class `T` in the object subsystem.
 To remove an object from the system:
 
 > [!NOTE]
-> Resource deallocation occurs automatically when an object is removed. Calling `obj.delete(...)` is redundant.
+> Resource deallocation occurs automatically when an object is removed. Calling `obj.free(...)` is redundant.
 
 ```zig
 obj.remove(T: type, object: *T)
