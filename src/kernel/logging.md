@@ -72,7 +72,7 @@ fn someTemporaryFunction() {
 
 This would result in output similar to:
 
-```txt
+```log
 [INFO] my_scope: I'm here!
 [ERROR] my_scope: Bad! Really Bad!
 ```

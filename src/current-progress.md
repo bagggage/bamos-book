@@ -18,7 +18,7 @@
 | Virtual file system | *In progress ||
 | Processes and threads | *Planned* ||
 | System calls | *Planned* ||
-| Logging subsystem | **Most recent** ||
+| Logging subsystem | **Most recent** | [*Most recent*](./kernel/logging.md) |
 
 ## Hardware drivers
 
