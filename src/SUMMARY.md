@@ -9,6 +9,10 @@
 
 ---
 
+[Code-Style](./code-style.md)
+
+---
+
 - [Kernel](./kernel.md)
   - [Memory Management](./kernel/memory.md)
   - [Devices](./kernel/devices.md)
