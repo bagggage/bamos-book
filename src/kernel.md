@@ -66,7 +66,7 @@ Thanks to the clear project organization, the subsystem hierarchy mostly mirrors
 - **Video** (*may be removed in the future*)
   - Framebuffers
   - Text output
-- **Utilities**
+- **Library**
   - Data structures
 
 ### Main Components:
