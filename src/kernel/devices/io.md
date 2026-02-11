@@ -1,4 +1,4 @@
-# Input/Output Subsystem
+# Device's I/O access
 
 **Subsystem**: `dev.io` (*hereafter `io`*)
 

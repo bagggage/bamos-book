@@ -14,12 +14,16 @@
 | Memory management | **Most recent** | [*Outdated*](./kernel/memory.md) |
 | SMP | **Almost done** ||
 | Device management | **Almost done** | [*Need updates*](./kernel/devices.md) |
-| I/O subsystem | **Done** | [*Most recent*](./kernel/devices/io.md) |
+| Device's I/O | **Done** | [*Most recent*](./kernel/devices/io.md) |
 | Interrupt handling | **Almost done** | [*Need updates*](./kernel/devices/interrupts.md) |
 | Device classes subsystem | **Almost done** | [*Need updates*](./kernel/devices/classes.md) |
-| Virtual file system | *In progress ||
-| Processes and threads | *In progress ||
-| System calls | *In progress ||
+| Virtual file system | *In progress | [*TODO*](./kernel/file-system.md) |
+| Time subsystem | **Almost done** | [*TODO*](./kernel/time.md) |
+| Scheduler | *In progress | [*TODO*](./kernel/scheduling.md) |
+| Processes and threads | *In progress | [*TODO*](./kernel/processes.md) |
+| Userspace | *In progress | [*TODO*](./kernel/userspace.md) |
+| Linux compatibility | *In progress | [*TODO*](./kernel/userspace/gnu-linux.md) |
+| Windows compatibility | *Planned* | [*TODO*](./kernel/userspace/windows-nt.md) |
 | Logging subsystem | **Most recent** | [*Most recent*](./kernel/logging.md) |
 
 ## Hardware drivers
@@ -42,6 +46,8 @@
 | initramfs | *In progress ||
 | ext4 | *Planned* ||
 | devfs | *In progress ||
+| procfs | *Planned* ||
+| sysfs | *Planned* ||
 | NTFS | *Planned* ||
 | FAT32 | *Planned* ||
 | /dev/tty | *In progress ||
